@@ -11,7 +11,8 @@
     "express": "3.3.2",
     "path": "~0.4.9",
     "body-parser": "~1.9.1",
-    "nodemon": "~0.7.8"
+    "nodemon": "~0.7.8",
+    "uid2": "0.0.3"
   },
   "devDependencies": {
     "grunt": "0.4.5",
