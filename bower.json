@@ -1,0 +1,26 @@
+{
+  "name": "klipseapp",
+  "version": "0.0.0",
+  "authors": [
+    "Eytyy <e.tayyem@gmail.com>"
+  ],
+  "description": "Klipse web app",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "underscore": "latest",
+    "backbone": "latest",
+    "requirejs": "latest"
+  }
+}

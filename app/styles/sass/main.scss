@@ -1,0 +1,110 @@
+@import "compass/utilities/sprites";
+@import "compass/css3";
+
+/* Base Styles */
+html {
+	font-size: 0.625em;
+	line-height: 1.35em;
+	font-family: helvetica;
+}
+body {
+	margin: 0;
+}
+em {
+	color: #666;
+}
+a {
+	color: #F7AF15;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+p {
+	font-size: 1.4em;
+	line-height: 1.5em;
+}
+
+%center {
+	width: 100%;
+	max-width: 90em;
+	margin: 0 auto;
+	padding: 0 2em;
+}
+
+/* Header */
+#klipse-header {
+	@extend %center;
+	padding: 2em;
+	padding: 0px 8px 8px;
+	margin-bottom: 50px;
+	h1 {
+		font-size: 4em;
+		margin: 0;
+		line-height: 1.35em;
+	}
+}
+#main-menu {
+	margin: 2em 0;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		display: inline-block;
+		margin-right: 4em;
+	}
+	a {
+		font-size: 1.8em;
+		text-decoration: none;
+		font-weight: 300;
+	}
+}
+
+#main {
+	@extend %center;
+}
+
+.homepage-form {
+	input, button {
+		vertical-align: middle;
+	}
+	input {
+		padding: 5px 10px;
+		font-size: 14px;
+		margin-right: 10px;
+		border: 1px solid #d2d2d2;
+		outline: none;
+		&:focus {
+			border: 1px solid #a2a2a2;
+		}
+	}
+	button {
+		padding: 5px 10px;
+		font-size: 12px;
+		height: 29px;
+		border: 0;
+	}
+}
+#drafts-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.draft-item {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+  a {
+    color: #444;
+    text-decoration: none;
+  }
+}
+.draft-title {
+	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+	font-size: 2.4em;
+	font-weight: 300;
+}
+
+#klipse-footer {
+	@extend %center;
+}
